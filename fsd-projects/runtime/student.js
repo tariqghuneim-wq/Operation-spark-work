@@ -1,5 +1,9 @@
 function moveScenery() {
   // TODO 2: Move background scenery based on current level speed
+  for (var i = 0; i < scenery.building.instances; i++){
+
+  }
+  var buildingInstance = scenery.building.instances[i]
 }
 
 function generateLevel() {
